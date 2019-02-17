@@ -1,0 +1,263 @@
+@media screen and (max-width: 1200px) {
+	.menu {
+		margin-left: 10px;
+	}
+
+	.menu__item {
+		font-size: 11px;
+	}
+
+	.block {
+		width: 310px;
+		height: 320px;
+	}
+	.element__front {
+		left: 390px;
+	}
+
+	.left-element {
+		left: 300px;
+	}
+
+	.right-element {
+		right: 310px;
+	}
+
+	.phone__numbers {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	#sect2 {
+		height: 900px;
+	}
+
+	.block__competence {
+		margin: 50px auto;
+	}
+
+	.headline__header {
+		margin-top: 100px;
+	}
+
+	.headline {
+		font-size: 90px;
+		letter-spacing: 7px;
+	}
+
+	.what {
+		width: 100%;
+	}
+
+	.block__first {
+		width: 100%;
+	}
+
+	.block__bottom {
+		width: 100%;
+	}
+
+	.element__front {
+		left: 50px;
+	}
+
+	.left-element {
+		left: 0px;
+	}
+
+	.right-element {
+		right: 0px;
+	}
+
+	.button__control .button {
+		font-size: 20px;
+		padding: 20px 60px;
+	}
+
+	.headline__sect4 {
+		margin-bottom: 50px;
+	}
+
+	.button__bottom {
+		padding: 20px 60px;
+	}
+
+	.headline__sect5 {
+		margin-top: 40px;
+	}
+
+	.blocks__rewievs {
+		margin-top: 100px;
+	}
+
+	.rewiev {
+		width: 600px;
+		height: 300px;
+	}
+
+	.avatar {
+		position: absolute;
+		top: -100px;
+		left: 230px;
+		border: 5px solid #fff;
+	}
+
+	.text__rewiev {
+		margin-top: 30px;
+	}
+
+	.name {
+		margin-top: 60px;
+	}
+
+	.hrew {
+		margin-top: 60px;
+		margin-left: 80px;
+	}
+
+	.fa-angle-left {
+		top: 350px;
+	}
+
+	.fa-angle-right {
+		top: 350px;
+		right: 10px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#sect2 {
+		height: 1550px;
+	}
+
+	.block {
+		width: 100%;
+	}
+
+		.block__reliability {
+		background: #f4f4f4 url(../img/benefits1.png) no-repeat top 20px center;
+	}
+
+		.block__credibility {
+		background: #f4f4f4 url(../img/benefits2.png) no-repeat top 20px center;
+	}
+
+		.block__competence {
+		background: #f4f4f4 url(../img/benefits3.png) no-repeat top 20px center;
+	}
+
+	.block {
+		height: 400px;
+	}
+
+	.h-text {
+		font-size: 35px;
+		padding-top: 50px;
+	}
+
+	.text p {
+		font-size: 27px;
+	}
+
+	.quote {
+		font-size: 40px;
+	}
+
+	.what {
+		height: 200px;
+	}
+
+	.what h6, .what h5 {
+		margin: 20px auto;
+		font-size: 30px;
+		width: 90%;
+	}
+
+	#sect3 {
+		height: 1200px;
+	}
+
+	.answer p {
+		font-size: 30px;
+	}
+
+	#sect4 {
+		height: 1500px;
+	}
+
+	.block__first {
+		height: 600px;
+	}
+
+	.headline__block-one {
+		font-size: 30px;
+	}
+
+	.block__first p {
+		margin-top: 20px;
+		font-size: 25px;
+	}
+
+	.block__bottom {
+		height: 400px;
+	}
+
+	.block__bottom p {
+		margin: 20px auto;
+		width: 90%;
+		font-size: 25px;
+	}
+
+	.button__bottom {
+		font-size: 25px;
+	}
+
+	#sect5 {
+		height: 1000px;
+	}
+
+	.rewiev {
+		width: 450px;
+		height: 680px;
+	}
+
+	.avatar {
+		width: 200px;
+		height: 200px;
+		left: 140px;
+	}
+
+	.first__row {
+		padding-left: 50px;
+	}
+
+	.name {
+		padding-top: 70px;
+		font-size: 27px;
+	}
+
+	.hrew {
+		font-size: 20px;
+		padding-left: 20px;
+		margin-top: 10px;
+	}
+
+	.text__rewiev {
+		width: 95%;
+		font-size: 24px;
+		padding-left: 50px;
+	}
+
+	.fa-angle-left, .fa-angle-right {
+		top: 600px;
+	}
+
+	.fa-angle-left {
+		left: 20px;
+	}
+
+	.fa-angle-right {
+		right: 20px;
+	}
+}

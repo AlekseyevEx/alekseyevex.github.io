@@ -129,7 +129,7 @@
 	}
 
 	#sect4 {
-		height: 1560px;
+		height: 3000px;
 	}
 
 	.headline__sect4 h1 {
@@ -137,6 +137,7 @@
 	}
 	
 	.block__first {
+		margin-top: -150px;
 		width: 100%;
 		height: 100%;
 		margin-bottom: 30px;
@@ -149,7 +150,7 @@
 	.block__first p {
 		margin: 0 auto;
 		width: 93%;
-		font-size: 30px;
+		font-size: 50px;
 	}
 
 	.block__bottom {
@@ -160,6 +161,68 @@
 	.block__bottom p {
 		margin: 0 auto;
 		width: 93%;
+		font-size: 50px;
+	}
+
+	#sect5 {
+		height: 1300px;
+	}
+
+	.headline__sect5 {
+		font-size: 75px;
+	}
+
+	.rewiev {
+		width: 97%;
+		height: 100%;
+	}
+
+	.avatar {
+		width: 250px;
+		height: 250px;
+		top: -120px;
+		left: 200px;
+	}
+
+	.name {
+		margin-top: 160px;
+		font-size: 40px;
+		width: 100%;
+	}
+
+	.hrew {
+		padding-left: 150px;
 		font-size: 30px;
+		width: 100%;
+	}
+
+	.next__block {
+		font-size: 40px;
+		width: 100%;
+	}
+
+	.text__rewiev {
+		width: 95%;
+		font-size: 40px;
+	}
+
+	.angles {
+		font-size: 80px;
+	}
+
+	.fa-angle-left {
+		padding-right: 20px;
+		background-color: #fff;
+		border-radius: 50%;
+		top: 750px;
+		left: 0px;
+	}
+
+	.fa-angle-right {
+		padding-left: 20px;
+		background-color: #fff;
+		border-radius: 50%;
+		top: 750px;
+		right: 0px;
 	}
 }

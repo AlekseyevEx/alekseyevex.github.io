@@ -117,19 +117,17 @@ header {
 
 .fa-angle-down {
 	cursor: pointer;
-	margin-top: 100px;
+	width: 50px;
+	height: 50px;
+	padding-top: 8px;
+	margin: 100px auto;
 	display: block;
 	color: #fff;
 	font-size: 32px;
 	border: 1px solid #fff;
 	border-style: dashed;
 	border-radius: 50%;
-	padding: 10px 15px;
 	transition: 0.2s;
-}
-
-.fa-angle-down:hover {
-	background: #213646;
 }
 
 .headline__benefits {

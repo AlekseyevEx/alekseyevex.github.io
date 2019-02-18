@@ -30,6 +30,22 @@
 		border: 1px solid red;
 	}
 
+	#header {
+		height: 110px;
+	}
+
+	.logo__control {
+		margin-top: 7px;
+	}
+
+	.logo img {
+		width: 270px;
+	}
+
+	.numbers {
+		font-size: 33px;
+	}
+
 	.headline__header .headline {
 		font-size: 130px;
 		letter-spacing: 0px;
@@ -54,6 +70,8 @@
 	}
 
 	.text p {
-		font-size: 28px;
+		font-size: 32px;
 	}
+
+	
 }

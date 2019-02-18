@@ -60,9 +60,9 @@
 	}
 
 	.block {
-		margin: 20px auto;
-		width: 85%;
-		height: 600px;
+		margin: 40px auto;
+		width: 100%;
+		height: 90%;
 	}
 
 	.h-text {
@@ -70,7 +70,8 @@
 	}
 
 	.text p {
-		font-size: 32px;
+		font-size: 55px;
+		font-family: m300;
 	}
 
 	.headline__benefits h1 {

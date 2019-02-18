@@ -26,10 +26,6 @@
 }
 
 @media screen and (max-width: 992px) {
-	.container {
-		border: 1px solid red;
-	}
-
 	#header {
 		height: 110px;
 	}

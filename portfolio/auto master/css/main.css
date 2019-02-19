@@ -1,0 +1,442 @@
+/* Спецификация */
+html {
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #2c3f55;
+	overflow-x: hidden;
+}
+
+ul, li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.white {
+	color: #fff;
+}
+
+section {
+	padding: 93px 0px 100px 0px;
+}
+
+* {
+	-moz-transition: all 0.3s ease;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 2.6rem;
+	font-weight: 800;
+	color: #1a283a;
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2:before {
+	content: '';
+display: block;
+background: #d84d4d;
+width: 9px;
+height: 28px;
+position: absolute;
+margin-top: 8px;
+margin-left: -30px;
+}
+
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+	text-decoration: none;
+	outline: none;
+}
+
+.container {
+	position: relative;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.bolder {
+	font-weight: 800;
+}
+
+.act {
+	background: #d84d4d;
+	color: #fff;
+	border: 0;
+	border-radius: 70px;
+	text-transform: uppercase;
+	font-weight: 800;
+	display: block;
+	width: 100%;
+	padding: 19px 0px;
+	font-size: 1.2rem;
+	letter-spacing: 0.15em;
+}
+
+.act:hover {
+	background: #c53636;
+	color: #fff;
+}
+
+.act:active {
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3) inset;
+}
+
+/* Шапка */
+
+.header {
+	background: #2c3f55;
+	padding: 15px 0px 31px 0px;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+.menu {
+	margin: 31px 0px 0px 0px;
+}
+
+.menu__item {
+	float: left;
+}
+
+.menu__item a {
+	color: #c3d6eb;
+	text-transform: uppercase;
+	font-weight: 800;
+	border-radius: 60px;
+	padding: 8px 18px;
+	font-size: 0.8rem;
+}
+
+.menu__item a:hover {
+	background: #24354a;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contacts__phone {
+	font-size: 1.667rem;
+	color: #fff;
+	margin-bottom: 14px;
+}
+
+.contacts__btn {
+	font-size: 0.8rem;
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	color: #fff;
+	border-radius: 60px;
+}
+
+.contacts__btn:hover {
+	background: #fff;
+	color: #2c3f55;
+}
+
+.contacts__btn:active {
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3) inset;
+}
+
+/* Первый экран */
+
+.services {
+
+}
+
+.services__item {
+	width: 48%;
+	padding-left: 100px;
+	margin-bottom: 61px;
+}
+
+.services__item_fix {
+	background: url(../img/fix.png) no-repeat left center;
+}
+
+.services__item_frame {
+	background: url(../img/car.png) no-repeat left center;
+}
+
+.services__item_electric {
+	background: url(../img/electric.png) no-repeat left center;
+}
+
+.services__item_wash {
+	background: url(../img/wash.png) no-repeat left center;
+}
+
+.services__title {
+	text-transform: uppercase;
+	font-size: 1.267rem;
+	font-weight: 800;
+	margin-bottom: 6px;
+}
+
+.services__text {
+	font-size: 0.933rem;
+}
+
+h1 {
+	font-size: 3.333rem;
+	text-transform: uppercase;
+	color: #1a283a;
+	font-weight: 800;
+	margin: 80px 0px 80px 0px;
+	line-height: 1.2em;
+}
+
+.form {
+	border-radius: 3px;
+	box-shadow: 0px 10px 36px rgba(0,0,0,0.12);
+	padding-bottom: 1px;
+	margin: 50px 0px;
+	background: rgba(255,255,255,0.9);
+z-index: 2;
+position: relative;
+}
+
+.form__title {
+	font-size: 1.067rem;
+	background: #2c3f55;
+	padding: 14px 15px;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.order {
+	margin: 36px;
+}
+
+.order label {
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-weight: 300;
+}
+
+.order__input {
+	border-radius: 3px;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+	border: 0;
+	padding: 15px 10px 15px 30px;
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.933rem;
+}
+
+.order__input:focus {
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+.order__credits {
+	text-align: center;
+	font-size: 0.667rem;
+	margin-top: 17px;
+	text-transform: uppercase;
+}
+
+/* Почему нас выбирают */
+
+#why {
+	background: #eceef0;
+	position: relative;
+}
+
+#why:after {
+	content: '';
+	display: block;
+	height: 12px;
+	background: url(../img/wave_bg.png) repeat-x center center;
+	position: absolute;
+	width: 100%;
+	bottom: -12px;
+}
+
+.adv__img {
+	height: 138px;
+}
+
+.adv__img_first {
+	background: url(../img/like.png) no-repeat center center;
+}
+
+.adv__img_second {
+	background: url(../img/services.png) no-repeat center center;
+}
+
+.adv__img_third {
+	background: url(../img/parts.png) no-repeat center center;
+}
+
+.adv__img_fourth {
+	background: url(../img/comfort.png) no-repeat center center;
+}
+
+.adv__title {
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+}
+
+.adv {
+	margin-top: 40px;
+}
+
+.car-bg {
+	position: absolute;
+	right: -270px;
+	top: -480px;
+	z-index: 1;
+}
+
+.description {
+	font-size: 1.067rem;
+	margin-top: 44px;
+	margin-bottom: 65px;
+}
+
+.tabs__list	{
+	margin-bottom: 43px;
+}
+
+.tabs__item {
+	color: #516276;
+	font-size: 1.267rem;
+	text-transform: uppercase;
+	font-weight: 800;
+	cursor: pointer;
+	display: inline;
+	padding-bottom: 15px;
+	margin-right: 50px;
+}
+
+.tabs__item:last-child {
+	margin-right: 0;
+}
+
+.tabs__item_active {
+	color: #d84d4d;
+	border-bottom: 3px solid #d84d4d;
+}
+
+.tabs__listing {
+	margin-top: 30px;
+}
+
+.tabs__ul {
+	margin-right: 90px;
+}
+
+.tabs__li {
+	margin-bottom: 10px;
+}
+
+.tabs__li i {
+	color: #d84d4d;
+	margin-right: 3px;
+}
+
+.gallery {
+	width: 80%;
+	position: relative;
+}
+
+.gallery__imgs {
+
+}
+
+.gallery__one {
+	
+}
+
+.gallery__one img {
+	width: 100%;
+}
+
+.gallery__nav {
+	width: 100%;
+}
+
+.gallery__arrow {
+	font-size: 1.667rem;
+	background: #fff;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	cursor: pointer;
+}
+
+.gallery__arrow_prev {
+	left: -17px;
+}
+
+.gallery__arrow_next {
+	right: -17px;
+}
+
+.order-block__act {
+	font-size: 0.933rem;
+	text-align: center;
+}
+
+.order-block {
+	width: 80%;
+	margin-top: 40px;
+}
+
+#look {
+	background: #2c3f55 url(../img/auto.png) no-repeat center bottom;
+	color: #fff;
+}
+
+#look h2 {
+	color: #fff;
+}
+
+.photos img {
+	margin-top: 60px;
+}
+
+#map {
+	padding: 0px;
+}
+
+footer {
+	font-size: 0.867rem;
+	padding: 40px 0px;
+}
+
+.footer__up {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 2.533rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -40px;
+	top: -83px;
+	background: #fff;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+	cursor: pointer;
+}

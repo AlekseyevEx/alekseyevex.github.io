@@ -24,7 +24,7 @@ a {
 
 header {
 	background: url(../img/header-bg.jpg) no-repeat center top / cover;
-	height: 420px;
+	height: 450px;
 }
 
 #header {
@@ -92,29 +92,165 @@ header {
 	color: #23aae2;
 }
 
-.first__headline h1 {
-	padding-bottom: 50px;
+.headline__first {
 	margin-top: 80px;
-	font-size: 85px;
+	font-size: 80px;
+	letter-spacing: 6px;
 	color: #fff;
-	letter-spacing: 5px;
 }
 
-.block__sect2 {
-	margin: -130px auto;
+#block__contacts {
+	margin-top: -150px;
+	height: 750px;
+}
+
+.block {
 	width: 1050px;
-	height: 600px;
-	border-radius: 10px;
-	box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+	height: 650px;
+	margin: auto;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
 	background-color: #ffffff;
 }
 
-.headline__block h1 {
-	color: #0c89bd;
-	margin-top: 30px;
-	font-size: 25px;
+.headline__block {
+	margin-top: 70px;
+	color: #000000;
+	font-family: "m300";
+	font-size: 17px;
 }
 
-.headline__block span {
-	font-size: 37px;
+.left__block {
+	margin: 100px 120px;
+}
+
+.list__item {
+	margin-top: 50px;
+}
+
+.h-list {
+	color: #000000;
+	font-family: "m900";
+	font-size: 18px;
+}
+
+.text-list {
+	color: #000000;
+	font-family: "m100";
+	font-size: 16px;
+}
+
+.list__item_phone {
+	background: url(../img/phone.png) no-repeat left center;
+	padding-left: 50px;
+}
+
+.list__item_email {
+	background: url(../img/email.png) no-repeat left center;
+	padding-left: 50px;
+}
+
+.list__item_skype {
+	background: url(../img/skype.png) no-repeat left center;
+	padding-left: 50px;
+}
+
+.form__control {
+	text-align: center;
+}
+
+.form {
+	margin-bottom: 10px;
+	width: 370px;
+	height: 67px;
+	font-size: 18px;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+	background-color: #30c2ff;
+	color: #fff;
+	text-align: center;
+	outline: none;
+	transition: 0.2s;
+}
+
+.form:hover {
+	width: 380px;
+	height: 67px;
+}
+
+.form:focus {
+	width: 380px;
+	height: 67px;
+	color: #30c2ff;
+	background-color: #fff;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+
+::placeholder {
+	color: #fff;
+	font-size: 15px;
+}
+
+.button {
+	width: 369px;
+	height: 70px;
+	text-transform: uppercase;
+	border-radius: 4px;
+	border: 2px solid #ffffff;
+	background: none;
+	color: #fff;
+	transition: 0.2s;
+}
+
+.button:hover {
+	background: rgba(255,255,255,0.3);
+}
+
+.block__form {
+	margin-top: 50px;
+	padding-top: 40px;
+	width: 430px;
+	height: 380px;
+	border-radius: 10px;
+	background-color: #11b2f5;
+}
+
+footer {
+	width: 100%;
+	height: 89px;
+	box-shadow: 3px -13px 131px rgba(0, 0, 0, 0.26);
+	background-color: #23aae2;
+}
+
+.logo-down__control {
+	padding-top: 20px;
+}
+
+.horse {
+	padding-top: 38px;
+	opacity: 0.76;
+	color: #faf7f7;
+	font-family: "m100";
+	font-size: 14px;
+}
+
+.conf {
+	padding-top: 35px;
+}
+
+.conf a {
+	opacity: 0.76;
+	color: #faf7f7;
+	font-family: "m100";
+	font-size: 14px;
+}
+
+.conf a:hover {
+	color: #faf7f7;
+	text-decoration: none;
+	opacity: none;
+}
+
+.fa-phone__down {
+	color: #fff;
+	border: 1px dashed #fff;
 }

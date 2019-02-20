@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+	.block {
+		width: 100%;
+	}
+
+	.menu {
+		margin-left: 10px;
+	}
+
+	.menu__item a {
+		font-size: 11px;
+	}
+
+	.left__block {
+		margin: 100px 90px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	#header {
+		height: 110px;
+	}
+
+	.logo__control {
+		margin-top: 7px;
+	}
+
+	.logo img {
+		width: 270px;
+	}
+
+	.numbers {
+		font-size: 33px;
+	}
+
+	.headline__block {
+		font-size: 50px;
+		font-family: m900;
+		width: 90%;
+		margin: 60px auto;
+	}
+
+	.left__block {
+		margin: 0;
+	}
+
+	#block__contacts {
+		height: 1500px;
+	}
+
+	.block {
+		height: 100%;
+	}
+
+	.list__item {
+		width: 100%;
+		text-align: center;
+		/*border: 1px solid red;*/
+	}
+
+	.h-list {
+		font-size: 45px;
+	}
+
+	.text-list {
+		font-size: 40px;
+	}
+	
+	.list__item_phone {
+		background: none;
+		padding-left: 0px;
+	}
+
+	.list__item_email {
+		background: none;
+		padding-left: 0px;
+	}
+
+	.list__item_skype {
+		background: none;
+		padding-left: 0px;
+	}
+}

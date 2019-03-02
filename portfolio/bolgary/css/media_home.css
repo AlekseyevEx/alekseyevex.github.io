@@ -278,7 +278,7 @@
 	}
 
 	.headline__header .headline {
-		font-size: 95px;
+		font-size: 20px;
 	}
 
 	#sect2 {
@@ -340,7 +340,7 @@
 	}
 
 	.headline__header .headline {
-		font-size: 20px;
+		font-size: 0px;
 	}
 
 	.container {

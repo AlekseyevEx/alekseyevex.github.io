@@ -272,68 +272,6 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
-	.numbers {
-		font-size: 24px;
-	}
-
-	.headline__header .headline {
-		font-size: 20px;
-	}
-
-	#sect2 {
-		height: 3700px;
-	}
-
-	.block {
-		height: 95%;
-	}
-
-	.h-text {
-		font-size: 60px;
-	}
-
-	#sect4 {
-		height: 3500px;
-	}
-
-	#sect5 {
-		height: 1800px;
-	}
-
-	.avatar {
-		left: 27%;
-	}
-
-	.name {
-		font-size: 30px;
-	}
-
-	.hrew {
-		padding-left: 15%;
-	}
-
-	.next__block {
-		display: none;
-	}
-	
-	.fa-angle-left {
-		margin-top: 300px;
-	}
-
-	.fa-angle-right {
-		margin-top: 300px;
-	}
-
-	#sect6 {
-		height: 1400px;
-	}
-
-	.button {
-		font-size: 30px;
-	}
-}
-
 @media screen and (max-width: 575px) {
 	.menu {
 		display: none;

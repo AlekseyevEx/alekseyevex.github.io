@@ -338,4 +338,12 @@
 	.menu {
 		display: none;
 	}
+
+	.headline__header .headline {
+		font-size: 20px;
+	}
+
+	.container {
+		border: 1px solid red;
+	}
 }

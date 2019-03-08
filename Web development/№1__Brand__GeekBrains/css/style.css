@@ -629,3 +629,99 @@ footer {
 	color: #b2b2b2;
 	background: #fff;
 }
+
+
+/*Вторая страница "Product"*/
+
+#nav__info {
+	height: 148px;
+	background-color: #f8f3f4;
+}
+
+.headline__nav-info {
+	
+}
+
+.headline__nav-info h2 {
+	color: #f16d7f;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 148px;
+	letter-spacing: 1.3px;
+	text-transform: uppercase;
+}
+
+.navigation__nav-info {
+	
+}
+
+.navigation__nav-info li {
+	float: left;
+	margin-right: 4px;
+	line-height: 100px;
+}
+
+.navigation__nav-info a,
+.navigation__nav-info a:hover {
+	color: #636363;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.navigation__nav-info a:last-child,
+.navigation__nav-info a:last-child:hover {
+	color: #f16d7f;
+	font-weight: 700;
+}
+
+#list__sel .h-list {
+	width: 239px;
+	height: 40px;
+	position: relative;
+	padding-left: 20px;
+	border: none;
+	border-left: 3px solid #ef5b70;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	background: #fff;
+	transition: 0.2s;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.drop__list {
+	width: 250px;
+	height: 40px;
+	position: relative;
+	margin-bottom: 20px;
+	border: none;
+	text-align: left;
+	text-transform: uppercase;
+	padding-left: 10px;
+	border-left: 3px solid #ef5b70;
+	transition: 0.2s;
+}
+
+.drop__list:focus {
+	outline: none;
+	padding-left: 15px;
+	color: #ef5b70;
+	box-shadow: 0px 2px 1px rgba(0,0,0,0.3);
+}
+
+.drop__list i {
+	position: absolute;
+	right: 15px;
+}
+
+.drop__list .fcu__sel {
+	opacity: 0;
+}
+
+.drop__list:focus .fcu__sel {
+	opacity: 1;
+}
+
+.drop__list:focus .fcd__sel {
+	opacity: 0;
+}
+
